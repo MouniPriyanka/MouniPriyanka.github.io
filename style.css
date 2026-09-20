@@ -24,6 +24,10 @@ h1 {
     font-size: 64px;
     line-height: 1.05;
     margin: 0 0 18px;
+    background: linear-gradient(90deg, #ffffff, #9fb7d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 }
 
 h2 {
