@@ -3,15 +3,57 @@ body {
     color: #f5f5f5;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 60px;
+    padding: 0;
+}
+
+.hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 40px 100px;
+}
+
+.eyebrow {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #8b9bb4;
+    margin-bottom: 25px;
 }
 
 h1 {
-    font-size: 56px;
-    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.05;
+    margin: 0 0 18px;
 }
 
-p {
-    font-size: 20px;
-    line-height: 1.6;
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #b8c0cc;
+    margin: 0 0 30px;
+}
+
+.intro {
+    max-width: 650px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #d1d5db;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid #3a4250;
+    border-radius: 6px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #1b2029;
 }
